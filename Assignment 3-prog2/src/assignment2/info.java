@@ -75,6 +75,7 @@ public class info{
 	
 	public ArrayList<String> print() {
 		try {
+		
 		FileWriter fw= new FileWriter(filepath,true);
 		BufferedWriter bw= new BufferedWriter(fw);
 		PrintWriter pw=new PrintWriter(bw);
